@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey", "Jockey\Jockey.csproj", "{1692764F-84D0-400B-A4B3-23FC90E13E1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey.Views", "Jockey.Views\Jockey.Views.csproj", "{48E45966-EBC1-4560-942E-E56CEE38771E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey.ViewModels", "Jockey.ViewModels\Jockey.ViewModels.csproj", "{9D59FEB4-B1BE-408D-BBC0-AED27413ADED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{1692764F-84D0-400B-A4B3-23FC90E13E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1692764F-84D0-400B-A4B3-23FC90E13E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1692764F-84D0-400B-A4B3-23FC90E13E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E45966-EBC1-4560-942E-E56CEE38771E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E45966-EBC1-4560-942E-E56CEE38771E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E45966-EBC1-4560-942E-E56CEE38771E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E45966-EBC1-4560-942E-E56CEE38771E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D59FEB4-B1BE-408D-BBC0-AED27413ADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D59FEB4-B1BE-408D-BBC0-AED27413ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D59FEB4-B1BE-408D-BBC0-AED27413ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D59FEB4-B1BE-408D-BBC0-AED27413ADED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
