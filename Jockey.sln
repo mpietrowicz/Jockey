@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey.Models", "Jockey.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey.Common", "Jockey.Common\Jockey.Common.csproj", "{26AE6650-8902-47E1-ACC5-7614E99D648C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jockey.Core", "Jockey.Core\Jockey.Core.csproj", "{5D274E51-D46F-4861-AA8A-A038BBF02971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{26AE6650-8902-47E1-ACC5-7614E99D648C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26AE6650-8902-47E1-ACC5-7614E99D648C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26AE6650-8902-47E1-ACC5-7614E99D648C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D274E51-D46F-4861-AA8A-A038BBF02971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D274E51-D46F-4861-AA8A-A038BBF02971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D274E51-D46F-4861-AA8A-A038BBF02971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D274E51-D46F-4861-AA8A-A038BBF02971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

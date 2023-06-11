@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="ReactiveUI">
+        <HintPath>..\..\..\..\.nuget\packages\reactiveui\19.2.1\lib\net6.0\ReactiveUI.dll</HintPath>
+      </Reference>
+      <Reference Include="Splat">
+        <HintPath>..\..\..\..\.nuget\packages\splat\14.6.37\lib\net6.0\Splat.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Jockey.Views\Jockey.Views.csproj" />
+    </ItemGroup>
+
+</Project>

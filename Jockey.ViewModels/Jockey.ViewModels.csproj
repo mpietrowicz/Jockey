@@ -13,6 +13,13 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Jockey.Abstraction\Jockey.Abstraction.csproj" />
+      <ProjectReference Include="..\Jockey.Models\Jockey.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Avalonia.Controls">
+        <HintPath>..\..\..\..\.nuget\packages\avalonia\0.10.19\lib\netcoreapp2.0\Avalonia.Controls.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

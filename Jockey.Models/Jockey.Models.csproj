@@ -6,4 +6,19 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="DynamicData">
+        <HintPath>..\..\..\..\.nuget\packages\dynamicdata\7.14.2\lib\net6.0\DynamicData.dll</HintPath>
+      </Reference>
+      <Reference Include="ReactiveUI">
+        <HintPath>..\..\..\..\.nuget\packages\reactiveui\19.2.1\lib\net6.0\ReactiveUI.dll</HintPath>
+      </Reference>
+      <Reference Include="ReactiveUI.Fody.Helpers">
+        <HintPath>..\..\..\..\.nuget\packages\reactiveui.fody\19.2.1\lib\net6.0\ReactiveUI.Fody.Helpers.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Reactive">
+        <HintPath>..\..\..\..\.nuget\packages\system.reactive\6.0.0\lib\net6.0\System.Reactive.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
