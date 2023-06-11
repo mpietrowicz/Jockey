@@ -16,20 +16,9 @@
         <PackageReference Include="XamlNameReferenceGenerator" Version="1.6.1" />
     </ItemGroup>
     <ItemGroup>
-      <AvaloniaXaml Include="MainWindow.axaml">
-        <SubType>Designer</SubType>
-      </AvaloniaXaml>
+        <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="MainWindow.axaml.cs">
-        <DependentUpon>MainWindow.axaml</DependentUpon>
-        <SubType>Code</SubType>
-      </Compile>
-    </ItemGroup>
-
     <ItemGroup>
       <ProjectReference Include="..\Jockey.ViewModels\Jockey.ViewModels.csproj" />
     </ItemGroup>
-
 </Project>
