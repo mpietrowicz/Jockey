@@ -29,6 +29,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Jockey.Abstraction\Jockey.Abstraction.csproj" />
       <ProjectReference Include="..\Jockey.ViewModels\Jockey.ViewModels.csproj" />
       <ProjectReference Include="..\Jockey.Views\Jockey.Views.csproj" />
     </ItemGroup>

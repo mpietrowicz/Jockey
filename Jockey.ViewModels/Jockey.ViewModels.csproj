@@ -11,4 +11,8 @@
       <PackageReference Include="ReactiveUI.Fody" Version="19.2.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Jockey.Abstraction\Jockey.Abstraction.csproj" />
+    </ItemGroup>
+
 </Project>
