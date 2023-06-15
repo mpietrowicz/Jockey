@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Reactive.Disposables;
 using Avalonia.Controls;
 using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
@@ -25,22 +26,21 @@ public class EditorControlViewModel : ViewModelBase, IActivatableViewModel
             return;
         }
         
-        // this.WhenActivated(disposables =>
-        // {
-        //     this.WhenAnyValue(x => x.FontFamily).Subscribe(fontFamily =>
-        //     {
-        //         this.RaisePropertyChanged(nameof(FontFamily));
-        //     });
-        // });
+        this.WhenActivated(disposables =>
+        {
+            this.HandleActivation();
+            InitText = "public class Program\n{\n    public static void Main()\n    {\n        Console.WriteLine(\"Hello World!\");\n    }\n}";
+            Disposable
+                .Create(this.HandleDeactivation)
+                .DisposeWith(disposables);
+        });
     }
 
     internal override void HandleActivation()
     {
-        throw new NotImplementedException();
     }
 
     internal override void HandleDeactivation()
     {
-        throw new NotImplementedException();
     }
 }

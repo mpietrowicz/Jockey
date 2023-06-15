@@ -15,7 +15,7 @@ public partial class EditorControl : ReactiveUserControl<EditorControlViewModel>
     public EditorControl()
     {
         InitializeComponent();
-
+        ViewModel ??= new();
         this.WhenActivated(disposables =>
         {
             var  _registryOptions = new RegistryOptions(ThemeName.DarkPlus);
